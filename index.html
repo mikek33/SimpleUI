@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Domain Tracker</title>
+    <script src="https://code.jquery.com/jquery-1.12.3.js"></script>
+    <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+    <script src="referrer.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <br/>
+    <div style="width:30%;">
+        <div class="datagrid">
+            <table id="dataTbl">
+                <thead>
+                    <tr>
+                        <th>Domain</th>
+                        <th>Total Count</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+    <br />
+    <div>
+        <input type="button" id="loadBtn" value="Load Top 3" />
+    </div>
+    <br/>
+    <br/>
+    <div>
+        <input type="text" id="domainValue" value="http://www.google.com" size="50"/>
+        <input type="button" id="domainBtn" value="Add Url" />
+    </div>
+</body>
+
+</html>
